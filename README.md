@@ -1,44 +1,17 @@
-# Selectors
+🍨 Dondurma ve Dondurma Sosu Ekleme Uygulaması: Lezzetli Yaratıcılık
 
-- https://testing-library.com/docs/ecosystem-testing-library-selector/
+🚀 Verimli ve Kolay Kullanım: Dondurma ve Dondurma Sosu Ekleme uygulamamız, kullanıcıların lezzetli dondurmalar ve eşsiz soslar oluşturmasını kolaylaştırır. Basit arayüzü ve sezgisel kullanımıyla, herkesin kendi tariflerini yaratmasına olanak tanır.
 
-# Matchers
+🍦 Geniş Malzeme Seçenekleri: Uygulamamız, çeşitli dondurma ve dondurma sosu malzemelerini içerir. Kullanıcılar, favori malzemelerini seçerek kişiselleştirilmiş dondurmalarını oluşturabilir ve benzersiz tatlar deneyebilirler.
 
-- https://github.com/testing-library/jest-dom
+🛠️ Bootstrap İle Güçlendirildi: Bootstrap kütüphanesi, uygulamamızın görünümünü ve kullanıcı deneyimini geliştirmek için kullanıldı. Temiz ve şık bir arayüz sağlar, böylece kullanıcılar rahatça gezinebilir ve seçim yapabilirler.
 
-# Html Element Rolleri
+📡 Veri İletişimi ve Saklama: Axios kütüphanesi, uygulamamızın sunucu ile iletişimini yönetir. JSON Sunucusu ile entegre edilerek, kullanıcıların seçtikleri malzemelerin ve tariflerin güvenli bir şekilde saklanmasını sağlar.
 
-- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles
+🧪 Unit Testler İle Onaylandı: Uygulamamız, @testing-library/user-event kütüphanesiyle birlikte unit testlerle doğrulandı. Bu sayede uygulamanın istikrarlı ve güvenilir olduğunu garanti altına aldık.
 
-# Kütüphaneler
+🌐 Küresel Erişim: Dondurma ve Dondurma Sosu Ekleme uygulamamız, dünya çapındaki kullanıcılar arasında lezzetli tariflerin paylaşımını ve etkileşimini kolaylaştırır. Herkesin katılımına açık ve erişilebilir bir platformdur.
 
-- axios@^0.27.2
-- @testing-library/user-event@14.0
-- json-server
-- bootstrap
+📈 Sürekli Gelişim: Uygulamamız, kullanıcı geri bildirimlerine dayanarak sürekli olarak güncellenir ve geliştirilir. Kullanıcı deneyimini her geçen gün daha da iyileştirmek için çalışıyoruz.
 
-# Test Geliştirme Süreçleri
-
-## TDD (Test Driven Development)
-
-- red to green test
-- Önce özelliğin / bileşenin testi yazılır ardından özellik kodlanır
-- Artısı, testler bir yük gibi gelmiyor. Geliştirme sürecinin bir paraçası oluyor. Testleri yazarken dinamik yapının algoritmasınıda oluşturduğumuz için işlevi daha hızlı kodlyabiliyoruz
-
-## BDD (Behaviour Driven Development)
-
-- Önce özellik / bileşen geliştirlir sonra testleri yazılır.
-
-## FireEvent
-
-- rtl içerisinde gelen olay tetikleme methodu
-- gerçek kullanıcadan uzak tepkiler verdiği için yerini userEvente bıraktı
-- teitklenen olaylar gerçek bir insanın verebilceği tepkiden çok daha hızlı bir şekilde aniden tetikleniyor
-
-## UserEvent
-
-- bu yolu kullanmak için userEvent paketi indirilmeli
-- fireEvent'in modern daha gelişmiş verisyonu
-- tetiklediğimiz olaylar gerçek kulalnıcının yağıcağı gibi belirli bir gecikmenin ardından gerçekleşiyo
-- gecikme olduğunda async await ile kullanırız
-# Ice-Cream
+Bu uygulama, yaratıcı lezzetlerin keşfi için bir araçtır. Sadece bir dondurma ve dondurma sosu ekleme uygulaması değil; kullanıcıların damak zevklerini keşfetmelerini ve kendi benzersiz tariflerini oluşturmalarını sağlayan bir platformdur. Şimdi deneyimleyin ve lezzetli tatlarınızı paylaşın! 🍦🎉
